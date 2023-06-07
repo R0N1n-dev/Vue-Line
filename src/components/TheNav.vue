@@ -11,3 +11,10 @@
 <script setup>
 import { RouterView } from 'vue-router'
 </script>
+
+
+<style scoped>
+.layout-aside {
+  width: var(--layout-aside--width);
+}
+</style>
